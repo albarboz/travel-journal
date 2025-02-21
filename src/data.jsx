@@ -7,7 +7,7 @@ export default [
         startDate: "12 Jan, 2021",
         endDate: "24 Jan, 2021",
         description: "Washington, D.C., the U.S. capital, is known for its iconic monuments, museums, and political landmarks like the White House and Lincoln Memorial. It attracts millions of visitors annually.",
-        imageUrl: "/src/images/travel1.JPG"
+        imageUrl: "/images/travel1.jpg"
     },
 
     {
@@ -18,7 +18,7 @@ export default [
         startDate: "27 May, 2021",
         endDate: "8 Jun, 2021",
         description: "Mount Rushmore, in South Dakota's Black Hills, features 60-foot sculptures of four U.S. presidents. A symbol of American history, it attracts over two million visitors annually.",
-        imageUrl: "/src/images/travel3.JPG"
+        imageUrl: "/images/travel3.jpg"
     },
 
 
@@ -30,6 +30,6 @@ export default [
         startDate: "01 Oct, 2021",
         endDate: "18 Nov, 2021",
         description: "Disneyland, in Anaheim, California, opened in 1955 and is known as The Happiest Place on Earth. Featuring iconic attractions, it draws millions of visitors annually.",
-        imageUrl: "/src/images/travel2.JPG"
+        imageUrl: "/images/travel2.jpg"
     },
 ] 
