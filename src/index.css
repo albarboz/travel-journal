@@ -44,26 +44,24 @@ body {
   max-width: 470px;
   width: 100%;
   margin: 45px auto 0;
+  padding: 0 15px;
 }
 
 .card {
   display: flex;
-  justify-content: center;
   align-items: center;
   color: #2b283a;
   padding: 18px 0;
-  
 }
 
 .card img {
   width: 130px;
   height: 168px;
   object-fit: cover;
-  object-position: center center;
+  object-position: center;
   border-radius: 5px;
   margin-right: 19px;
 }
-
 
 .icon {
   width: 7px;
@@ -71,8 +69,6 @@ body {
   left: 184px;
   top: 317px;
 }
-
-
 
 .card__info span p {
   letter-spacing: 17%;
@@ -97,7 +93,6 @@ a:hover {
   color: #f55a5a;
 }
 
-
 .card__info--location {
   display: flex;
   margin-bottom: 7px;
@@ -110,7 +105,6 @@ a:hover {
 }
 
 .card__info h4 {
-
   font-weight: 700;
   font-size: 10.24px;
   margin-bottom: 9px;
@@ -119,14 +113,11 @@ a:hover {
 .card__info .description {
   width: 326px;
   height: 45px;
-  left: 184px;
-  top: 203px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 10.24px;
   line-height: 150%;
-  /* or 15px */
   color: #2B283A;
 }
 
@@ -136,4 +127,56 @@ hr.card__line {
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-radius: 10px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+  .header {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .header__title {
+    width: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0 10px;
+  }
+  
+  .container {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  .card {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card__info {
+    width: 100%;
+  }
+  
+  .card__info h3 {
+    font-size: 20px;
+  }
+  
+  .card__info h4,
+  .card__info span p,
+  .card__info--location a,
+  .card__info .description {
+    font-size: 9px;
+  }
+  
+  .card__info .description {
+    width: 100%;
+  }
 }
